@@ -1,0 +1,146 @@
+body {
+  margin-top: 0;
+  padding: 00px;
+  background-color: #ECF0F1;
+  width: 100%;
+}
+
+.section_1 {
+  background-image: url("glenville.jpg");
+  z-index: -1;
+  height: 95%;
+  width: 100%;
+  margin: -10px 0 0 0;
+  right: 0;
+  padding: 0;
+  position: fixed;
+  background-color:rgba(0, 0, 0, 0.5);
+  opacity: 0.9;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#player{
+  z-index
+}
+
+h1 {
+  color: white;
+}
+
+.jumbotron {
+  margin: 15%;
+  opacity: 0.75;
+  z-index: 1;
+}
+.jumbotron h1 {
+  font-size: 2.5em;
+  text-align: center;
+  z-index: 2;
+}
+
+.section_2 {
+  /*background-image: url("/img/glenville.jpg");*/
+  height: 100%;
+  width: !important 100%;
+  margin-top: 1000px;
+  left:0px;
+  position: absolute;
+  padding: 0;
+  min-width: 100%;
+  background-color:rgba(0, 0, 0, 1);
+  background-size: cover;
+  display:inline-block;
+}
+.price {
+  float: right;
+}
+
+/*#menu_section div {
+  display:inline-block;
+  text-align:center;
+}*/
+.menu_item {
+  display: inline-block;
+  width: 30%;
+  height: 100px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+
+}
+
+.menu_item p{
+  width: 0 auto;
+  color: rgba(255,255,255,1);
+  background: rgba(0,0,0,1);
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 12% 10% 0 20%;
+  line-height: 20px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  display:inline-block;
+}
+.first{
+  background-image: url("l-1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.second{
+  background-image: url("l-3.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.third {
+  background-image: url("l.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.fourth {
+  background-image: url("l-2.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.fifth {
+  background-image: url("historia-de-ceviche.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dessert{
+  background-image: url("l-2.jpg");
+  background-size: cover;
+
+}
+
+.section_3 {
+  /*z-index: 2;*/
+background-image: url("main.jpg");
+  height: 100%;
+  width: !important 100%;
+  margin-top: 1400px;
+  left:0px;
+  position: absolute;
+  padding: 0;
+  min-width: 100%;
+  /*opacity: 0.8;*/
+  background-color:rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  display:inline-block;
+}
+
+.side_drink{
+  height: 500px;
+  width: 300px;
+  background-color: #F5F5DC;
+  opacity: 0.89;
+}
+.side_drink li{
+  font-size: 25px;
+}
