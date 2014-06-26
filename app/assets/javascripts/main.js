@@ -1,5 +1,7 @@
-$(document).scroll(function() {
-  $('.section_2').css('margin-top', ($(window).height() - 50));
+$(document).ready(function() {
+  $('.section_1').css('height', $(window).height());
+  $('.section_2').css('margin-top', ($(window).height()- 5));
+  $('.section_2').css('width', ($(window).width()));
   $('.section_3').css('margin-top', ($(window).height() * 2) - 50);
   // $(".menu_item").css("height", ($(window).height()/4));
 
