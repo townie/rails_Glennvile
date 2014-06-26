@@ -128,7 +128,7 @@ background-image: url("main.jpg");
   width: !important 100%;
   margin-top: 1400px;
   left:0px;
-  position: absolute;
+  position: relative;
   padding: 0;
   min-width: 100%;
   /*opacity: 0.8;*/
@@ -139,9 +139,10 @@ background-image: url("main.jpg");
 
 .side_drink{
   height: 500px;
-  width: 300px;
+  width: 90%;
   background-color: #F5F5DC;
   opacity: 0.89;
+  margin: 0 auto;
 }
 .side_drink li{
   font-size: 25px;

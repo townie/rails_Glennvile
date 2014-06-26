@@ -7,6 +7,11 @@ $(document).ready(function() {
 
 });
 
+$(document).onScroll(function() {
+	  $('.section_2').css('width', ($(window).width()));
+
+	});
+
 
 // $('#container').masonry({
 //   itemSelector: '.menu_item',
