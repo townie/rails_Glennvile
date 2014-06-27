@@ -6,7 +6,7 @@ body {
 }
 
 .section_1 {
-  background-image: url("glenville.jpg");
+  background-image: url(<%= asset_path "glenville.jpg" %>);
   z-index: -1;
   height: 95%;
   width: 100%;
@@ -42,7 +42,7 @@ h1 {
 }
 
 .section_2 {
-  /*background-image: url("glenville.jpg");*/
+  /*background-image: url(<%= asset_path "glenville.jpg" %>);*/
   height: 100% ;
   width:  100%;
   margin-top: 1000px;
@@ -90,28 +90,28 @@ h1 {
   display:inline-block;
 }
 .first{
-  background-image: url("l-1.jpg");
+  background-image: url(<%= asset_path "l-1.jpg" %>);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 .second{
-  background-image: url("l-3.jpg");
+  background-image: url(<%= asset_path "l-3.jpg" %>);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 .third {
-  background-image: url("l.jpg");
+  background-image: url(<%= asset_path "l.jpg" %>);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 .fourth {
-  background-image: url("l-2.jpg");
+  background-image: url(<%= asset_path "l-2.jpg" %>);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
 .fifth {
-  background-image: url("historia-de-ceviche.jpg");
+  background-image: url(<%= asset_path "historia-de-ceviche.jpg" %>);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -123,7 +123,7 @@ h1 {
 
 .section_3 {
   /*z-index: 2;*/
-background-image: url("main.jpg");
+background-image: url(<%= asset_path "main.jpg" %>);
   height: 100%;
   width: !important 100%;
   margin-top: 1400px;
